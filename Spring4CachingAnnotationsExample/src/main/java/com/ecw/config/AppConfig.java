@@ -11,9 +11,9 @@ import org.springframework.core.io.ClassPathResource;
 
 @EnableCaching
 @Configuration
-@ComponentScan(basePackages = "com.websystique.spring")
+@ComponentScan(basePackages = "com.ecw")
 public class AppConfig {
-	
+
 	@Bean
 	public CacheManager cacheManager() {
 		return new EhCacheCacheManager(ehCacheCacheManager().getObject());
