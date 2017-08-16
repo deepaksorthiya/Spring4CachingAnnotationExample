@@ -1,4 +1,4 @@
-package com.websystique.spring.service;
+package com.ecw.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +10,7 @@ import org.springframework.cache.annotation.CachePut;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Service;
 
-import com.websystique.spring.model.Product;
+import com.ecw.model.Product;
 
 @Service("productService")
 public class ProductServiceImpl implements ProductService {

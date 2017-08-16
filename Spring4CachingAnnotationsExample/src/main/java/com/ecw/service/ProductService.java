@@ -1,6 +1,6 @@
-package com.websystique.spring.service;
+package com.ecw.service;
 
-import com.websystique.spring.model.Product;
+import com.ecw.model.Product;
 
 public interface ProductService {
 

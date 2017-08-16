@@ -1,12 +1,12 @@
-package com.websystique.spring.configuration;
+package com.ecw.config;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.AbstractApplicationContext;
 
-import com.websystique.spring.model.Product;
-import com.websystique.spring.service.ProductService;
+import com.ecw.model.Product;
+import com.ecw.service.ProductService;
 
 public class SampleApplication {
 

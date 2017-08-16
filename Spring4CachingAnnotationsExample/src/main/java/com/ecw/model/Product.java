@@ -1,4 +1,4 @@
-package com.websystique.spring.model;
+package com.ecw.model;
 
 import java.io.Serializable;
 

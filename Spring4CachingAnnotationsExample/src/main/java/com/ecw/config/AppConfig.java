@@ -1,4 +1,4 @@
-package com.websystique.spring.configuration;
+package com.ecw.config;
 
 import org.springframework.cache.CacheManager;
 import org.springframework.cache.annotation.EnableCaching;
